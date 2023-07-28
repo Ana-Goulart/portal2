@@ -1,0 +1,36 @@
+html, body {
+      height: 100%; /*altura a partir da borda de cima*/
+      background-image: linear-gradient(15deg, pink, rgb(175, 204, 220));
+    }
+    body {
+      display: flex; /*usada para transformar um elemento pai no caso do body, pega toda a estrutura e faz a mesma formatação nos filhos*/
+      justify-content: center; /* Centraliza horizontalmente o conteúdo */
+      align-items: center; /* Centraliza verticalmente o conteúdo */
+      font-family: FreeMono, monospace;
+      font-size: 20px;
+      
+    }
+    p{
+        color: rgb(9, 49, 124);
+        font-size: 20px;
+    }
+    form{
+     margin-top: 25px;
+    }
+    #img{
+      margin-top: 80px;
+    }
+    #termos:hover{
+      background-color: rgb(224, 222, 222);
+      cursor: pointer;
+    }
+    #msgtermos{
+      font-size: 15px;
+      background-color: rgb(224, 222, 222);
+      position: absolute;
+      border-radius: 5px;
+      width: 406px;
+    }
+
+
+ 
